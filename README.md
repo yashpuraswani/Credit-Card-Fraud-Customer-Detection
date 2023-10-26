@@ -48,3 +48,77 @@ for Handle Missing values we have used mean median and mode concept where its wo
 
 
 ![App Screenshot](https://github.com/yashpuraswani/Credit-Card-Fraud-Customer-Detection/blob/main/Images/download%20(1).png)
+
+### Before Handling Outliers on of the feature looks like this:
+
+
+
+![App Screenshot](https://github.com/yashpuraswani/Credit-Card-Fraud-Customer-Detection/blob/main/Images/download%20(2).png)
+
+
+### After handling Outliers using some IQR Techniques the data comes to position called Normal Distribution:
+
+
+![App Screenshot](https://github.com/yashpuraswani/Credit-Card-Fraud-Customer-Detection/blob/main/Images/download%20(3).png
+
+
+If this looks good you can follow the entire concept which mentioned in the above coading file:
+
+Meanwhile while working with feature engineering part I am taking the help of sklearn and fearture engine frameworks for better EDA and model developement part:
+
+Techniques done using sklearn and feature engine :
+
+              - Variable Transformation
+              - Outliers
+              - data scaling concepts 
+
+
+
+## Finally entire data is set ready for Model developement Purpose:
+since the data is not balanced using Upsamping and down sampling concepts I Handle them.
+
+Know I selected KNN , naive bayes , Logistic Regression , Decision Tree and Random Forest for Model developement:
+
+since after training the model I got the results of :
+
+                  - KNN Accuracy : 0.7570969469737547
+                  - NB Accuracy  : 0.7403856454204606
+                  - LR Accuracy  : 0.7867880735582932
+                  - DT Accuracy  : 0.7030887341546153
+                  - RF Accuracy  : 0.808766291733619
+
+since almost the results are very close to each other I stuck around to select the best model: No worries I am having AUC and ROC concept so I find out FPR and TPR using Grapical represntation and selected best model which is Logistic Regression:
+
+
+![App Screenshot](
+https://github.com/yashpuraswani/Credit-Card-Fraud-Customer-Detection/blob/main/Images/download%20(4).png)
+
+
+
+Entire code and hidden information You can get it from the above coding file:
+
+
+
+## 🛠 Skills
+
+        1.Python 
+        2.Machine learning 
+        3.Statistics
+        4.Mathematics
+        5.Numpy 
+
+    
+
+
+## Support
+
+For support, email yashpuraswani804@gmail.com .
+
+
+## Acknowledgements
+
+ - [feature engine](https://feature-engine.trainindata.com/en/latest/)
+ - [Sklearn](https://scikit-learn.org/stable/)
+
+
+
