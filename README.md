@@ -59,7 +59,7 @@ for Handle Missing values we have used mean median and mode concept where its wo
 ### After handling Outliers using some IQR Techniques the data comes to position called Normal Distribution:
 
 
-![App Screenshot](https://github.com/yashpuraswani/Credit-Card-Fraud-Customer-Detection/blob/main/Images/download%20(3).png
+![App Screenshot](https://github.com/yashpuraswani/Credit-Card-Fraud-Customer-Detection/blob/main/Images/download%20(3).png)
 
 
 If this looks good you can follow the entire concept which mentioned in the above coading file:
@@ -87,7 +87,7 @@ since after training the model I got the results of :
                   - DT Accuracy  : 0.7030887341546153
                   - RF Accuracy  : 0.808766291733619
 
-since almost the results are very close to each other I stuck around to select the best model: No worries I am having AUC and ROC concept so I find out FPR and TPR using Grapical represntation and selected best model which is Logistic Regression:
+since almost the results are very close to each other I stuck around to select the best model: No worries I am having AUC and ROC concept so I find out FPR and TPR using Grapical represntation and selected best model which is Random Forest:
 
 
 ![App Screenshot](
